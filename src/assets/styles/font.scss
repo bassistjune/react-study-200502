@@ -1,5 +1,4 @@
-// font-family: 'Noto Sans KR', sans-serif;
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;200;300;400;500;600;700;800;900&display=swap');
-
-// font-family: 'Public Sans', sans-serif;
-@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+//// font-family: 'Noto Sans KR', sans-serif;
+//// font-family: 'Public Sans', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&family=Public+Sans:wght@100..900&display=swap&font-display=swap');
+// 코드 간결화를 위해 @import 한 줄로 변경, 폰트 깜빡임 방지를 위해 swap 옵션 추가로 렌더링 후 폰트가 로드되어 자연스럽게 나옴.

@@ -1,8 +1,11 @@
 import styles from './styles/index.module.scss'
+import CommonHeader from '@components/header/CommonHeader.tsx'
+
 function index() {
     return (
         <div className={styles.page}>
             {/* 공통 헤더 UI 부분 */}
+            <CommonHeader />
             {/* 공통 네비게이션 UI 부분 */}
             <div className={styles.page__contents}>
                 <div className={styles.page__contents__introBox}>

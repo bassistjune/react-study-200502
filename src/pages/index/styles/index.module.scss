@@ -1,4 +1,7 @@
-$HEADER-HEIGHT: 50px;
+@use "@/assets/styles/color.scss" as color; // 변경된 방식
+
+
+$HEADER-HEIGHT: 56px;
 $FOOTER-HEIGHT: 50px;
 $NAVIGATION-HEIGHT: 50px;
 
@@ -37,13 +40,13 @@ $NAVIGATION-HEIGHT: 50px;
         &__title {
           margin-bottom: 4px;
 
-          color: $color-white-000;
+          color: color.$color-white-000;
           font-size: 3rem;
           font-weight: 700;
 
         }
         &__desc {
-          color: $color-white-000;
+          color: color.$color-white-000;
           margin-bottom: 32px;
         }
       }
