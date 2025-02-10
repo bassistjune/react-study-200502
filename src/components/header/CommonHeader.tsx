@@ -4,7 +4,7 @@ function CommonHeader() {
     return(
         <div className={styles.header}>
             <div className={styles.header__logoBox}>
-                <img src="src/assets/images/image-logo.png" className={styles.header__logoBox__logo} />
+                <img src="src/assets/images/image-logo.png" className={styles.header__logoBox__logo} alt="Logo IMage" />
                 <span className={styles.header__logoBox__title}>
                     PhotoSplash
                 </span>
